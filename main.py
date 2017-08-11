@@ -708,7 +708,7 @@ if __name__ == "__main__":
         elif gameType == "basestats":
             baseVSbase(True)
 
-        elif gameType == "abvsab":
+        elif gameType == "basevsab":
             abVSab(False, 1)
 
         elif gameType == "abbasestats":
