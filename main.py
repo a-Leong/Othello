@@ -21,7 +21,7 @@ _EMPTY = "  "
 _TIE = " 0"
 
 _RUNS_PER_PROCESS_LOW = 4
-_RUNS_PER_PROCESS_HIGH = 2500
+_RUNS_PER_PROCESS_HIGH = 1000
 _PROCESSES = 4              # no performance benefit to increase beyond # cores
 
 def readable(color):
@@ -151,8 +151,8 @@ def randVSrand(isStatRun):
     bBranch = 0.0
 
     while inGame:
-        mainBoard.printer()             # uncomment to watch entire game
-        time.sleep(0.4)                 #
+        #mainBoard.printer()             # uncomment to watch entire game
+        #time.sleep(0.4)                 #
 
         # collect branch factor data to pass to stats functions
         if toMove == _BLACK:
