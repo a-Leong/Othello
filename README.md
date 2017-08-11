@@ -11,10 +11,10 @@
     ### randvsrand
     watch a game rand vs rand
 
-    ### randvsab
-    watch a game rand vs hard AI
-
     ### basevsbase
-    a game basicAI vs basicAI
+    watch a game basicAI vs basicAI
+    
+    ### basevsab
+    watch a game basic AI vs hard AI
 
 3. "exit" may be inputted to kill main.py.
