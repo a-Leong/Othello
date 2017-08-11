@@ -18,5 +18,3 @@
     a game basicAI vs basicAI
 
 3. "exit" may be inputted to kill main.py.
-# Othello
-# Othello
