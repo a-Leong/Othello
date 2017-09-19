@@ -1,4 +1,4 @@
-# IN THE MOOD FOR LOVE: A GAME  //  OTHELLO
+# OTHELLO
 ## Final Project for CS4701
 
 1. Run main.py without command line arguments to start a two player game.
