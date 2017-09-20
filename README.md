@@ -4,6 +4,8 @@ Othello is a fairly simple game to play but can involve highly complex strategie
 
 My partner and I began with a random player, then moved on to an evolutionary greedy player (using a more sophisticated evaluation function). After that, we developed a minimax algorithm, and later added alpha-beta pruning for increased efficiency.
 
+Created unsupervised for CS 4701: Artificial Intelligence Practicuum at Cornell University.
+
 
 ## Playing the Game
 1. Run main.py without command line arguments to start a two player game.
