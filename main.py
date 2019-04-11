@@ -14,8 +14,8 @@ import time
 from multiprocessing import Pool
 
 
-_BLACK = " 1"
-_WHITE = "-1"
+_BLACK = " X"
+_WHITE = " 0"
 _EMPTY = "  "
 _TIE = " 0"
 
@@ -150,8 +150,8 @@ def randVSrand(isStatRun):
     bBranch = 0.0
 
     while inGame:
-        #mainBoard.printer()             # uncomment to watch entire game
-        #time.sleep(0.4)                 #
+        mainBoard.printer()             # uncomment to watch entire game
+        time.sleep(0.4)                 #
 
         # collect branch factor data to pass to stats functions
         if toMove == _BLACK:
@@ -364,8 +364,8 @@ def abVSab(isStatRun, _type = 0, w1 = base._GREEDY_BALANCED, w2 = base._GREEDY_B
     bBranch = 0.0
 
     while inGame:
-        #mainBoard.printer()                # uncomment to watch entire game
-        #time.sleep(3)                      #
+        mainBoard.printer()                # uncomment to watch entire game
+        time.sleep(0.3)                      #
 
         # collect branch factor data to pass to stats functions
         if _type % 2 == 1:
