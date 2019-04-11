@@ -9,9 +9,9 @@ Created for CS 4701: Artificial Intelligence Practicuum at Cornell University.
 
 
 ## Playing the Game
-1. Run main.py without command line arguments to start a two player game.
+1. Run <python2 main.py> without command line arguments to start a two player game.
 
-2. Run main.py with one of the following arguments to start:
+2. Run <python2 main.py> with one of the following arguments to start:
 
     ### ai
     a one player game against AI
@@ -22,7 +22,7 @@ Created for CS 4701: Artificial Intelligence Practicuum at Cornell University.
     ### basevsbase
     watch a game basicAI vs basicAI
     
-    ### basevsab
-    watch a game basic AI vs hard AI
+    ### abvsab
+    watch a game hard AI vs hard AI
 
 3. "exit" may be inputted to kill main.py.
